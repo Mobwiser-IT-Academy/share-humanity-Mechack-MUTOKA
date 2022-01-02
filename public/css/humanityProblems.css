@@ -15,6 +15,15 @@
   /*border-bottom: 2px solid #ff5722;*/
   display: inline;
 }
+.humanity_problems_title2 {
+  font-size: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #ff5722;
+  /*border-bottom: 2px solid #ff5722;*/
+  display: flex;
+  margin-top: 10px;
+}
 .humanity_problems_title span{
   color: #ff5722;
 }
