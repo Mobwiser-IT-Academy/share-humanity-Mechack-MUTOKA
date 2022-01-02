@@ -58,122 +58,13 @@
     <div class="container">
       <h2 class="humanity_problems_title">Bienvenus à Share <span>Humanity</span></h2>
       <p class="intro">Nous somme Sharehumanity une organisation sans but lucrative. Nos activité humanitaire concerne le monde entier,<br> soutenons ces activités par un geste pour une vie meilleure.</p>
-      <div class="humanity_problems_items">
-        <div class="problem">
-            <div class="photo_problem"><img alt="" src="public/img/about1.jpg">
-            </div>
-            <div class="problem-infos">
-              <div class="titre-problem">
-                <h3>La faim</h3>
-              </div>
-              <div class="problem-description">
-                <p>Besoin urgent d'aide pour les enfants vivant dans les zones des conflits. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis!</p>
-              </div>
-            </div>
-              <div class="post-info">
-                People Affeted : 27 M <br>
-                Rank : 1
-              </div>
-              <div class="post-info">
-                <b><a href="faim.html">View details...</a></b>
-              </div>
-        </div>
-        <div class="problem">
-            <div class="photo_problem"><img alt="" src="public/img/about3.jpg">
-            </div>
-            <div class="problem-infos">
-              <div class="titre-problem">
-                <h3>La deforestation</h3>
-              </div>
-              <div class="problem-description">
-                <p>Besoin urgent d'aide pour les enfants vivant dans les zones des conflits. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis!</p>
-              </div>
-            </div>
-            <div class="post-info">
-              People Affeted : 32 M <br>
-              Rank : 5
-            </div>
-            <div class="post-info">
-              <b><a href="deforestation.html">View details...</a></b>
-            </div>
-        </div>
-        <div class="problem">
-            <div class="photo_problem"><img alt="" src="public/img/about2.jpg">
-            </div>
-            <div class="problem-infos">
-              <div class="titre-problem">
-                <h3>La protection d'animaux</h3>
-              </div>
-              <div class="problem-description">
-                <p>Besoin urgent d'aide pour les enfants vivant dans les zones des conflits. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis!</p>
-              </div>
-            </div>
-            <div class="post-info">
-              People Affeted :20 M <br>
-              Rank : 8
-            </div>
-            <div class="post-info">
-              <b><a href="">View details...</a></b>
-            </div>
-        </div>
-        <div class="problem">
-            <div class="photo_problem"><img alt="" src="public/img/3_004.jpg">
-            </div>
-            <div class="problem-infos">
-              <div class="titre-problem">
-                <h3>La malaria</h3>
-              </div>
-              <div class="problem-description">
-                <p>Besoin urgent d'aide pour les enfants vivant dans les zones des conflits. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis!</p>
-              </div>
-            </div>
-            <div class="post-info">
-              People Affeted : 50 M <br>
-              Rank : 1
-            </div>
-            <div class="post-info">
-              <b><a href="">View details...</a></b>
-            </div>
-        </div>
-        <div class="problem">
-            <div class="photo_problem"><img alt="" src="public/img/2_003.jpg">
-            </div>
-            <div class="problem-infos">
-              <div class="titre-problem">
-                <h3>Les enfants en milieu de conflit</h3>
-              </div>
-              <div class="problem-description">
-                <p>Besoin urgent d'aide pour les enfants vivant dans les zones des conflits. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis!</p>
-              </div>
-            </div>
-            <div class="post-info">
-              People Affeted : 43 M <br>
-              Rank : 1
-            </div>
-            <div class="post-info">
-              <b><a href="">View details...</a></b>
-            </div>
-        </div>
-        <div class="problem">
-            <div class="photo_problem"><img alt="" src="public/img/corona.jpg">
-            </div>
-            <div class="problem-infos">
-              <div class="titre-problem">
-                <h3>La covid19</h3>
-              </div>
-              <div class="problem-description">
-                <p>Besoin urgent d'aide pour les enfants vivant dans les zones des conflits. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis!</p>
-              </div>
-            </div>
-            <div class="post-info">
-              People Affeted : 20 M <br>
-              Rank :4
-            </div>
-            <div class="post-info">
-              <b><a href="">View details...</a></b>
-            </div>
-        </div>
-        
+      
+      <div class="sidebar_search2">
+        <label class="humanity_problems_title2">Search Field</label>
+        <input type="text" id ="searchInput" placeholder="Search by issue name" onkeyup="searchByName()">
+      </div>
+      <div class="humanity_problems_items" id="humanity_problems_items">
+               
       </div>
       
     </div>
@@ -398,6 +289,6 @@
     </div>
     <!-- /.container -->
 </section>
-  
+  <script src="public/js/myscript.js"></script>
 </body>
 </html>
